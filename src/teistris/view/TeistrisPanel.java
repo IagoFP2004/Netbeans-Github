@@ -287,6 +287,7 @@ public class TeistrisPanel extends javax.swing.JFrame {
     private void newgame_buttonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_newgame_buttonActionPerformed
         startGame();
         timer.start();
+        System.out.println("Iniciando partida");
     }//GEN-LAST:event_newgame_buttonActionPerformed
 
     private void rotate_ButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_rotate_ButtonActionPerformed
